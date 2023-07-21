@@ -22,7 +22,6 @@
 - sklearn.pipeline, make_pipeline
 - sklearn.preprocessing, StandardScaler
 - sklearn.metrics, mean_squared_error
-- numpy.random
 
 ## Итоги исследования   
 
