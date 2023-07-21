@@ -34,6 +34,24 @@
 **Цель работы**  
 Прогноз оттока клиентов для предложения им ряда дополнительных услуг или бонусов для оптимизации и регулировки количества пользователей данного оператора связи, следствием чего является увеличение/сохранение выручки компании.
 
+## Инструменты
+- pandas
+- numpy 
+- matplotlib
+- scipy 
+- seaborn
+- phik
+- sklearn.model_selection, train_test_split, GridSearchCV
+- sklearn.metrics, roc_auc_score, roc_curve, accuracy_score
+- sklearn.preprocessing, StandardScaler
+- sklearn.linear_model, LogisticRegression
+- sklearn.ensemble, RandomForestClassifier
+- sklearn.svm, LinearSVC
+- sklearn.preprocessing, OneHotEncoder
+- catboost, CatBoostClassifier
+- xgboost, XGBClassifier
+- lightgbm, LGBMClassifier
+
 ## Отчет
 
 В проекте были выполнены следующие пункты: 
