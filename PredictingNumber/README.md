@@ -1,8 +1,25 @@
 ##  Описание проекта
 
-Компания «Чётенькое такси» собрала исторические данные о заказах такси в аэропортах. Чтобы привлекать больше водителей в период пиковой нагрузки, нужно спрогнозировать количество заказов такси на следующий час. Постройте модель для такого предсказания.
+Компания «Чётенькое такси» собрала исторические данные о заказах такси в аэропортах. Чтобы привлекать больше водителей в период пиковой нагрузки, нужно спрогнозировать количество заказов такси на следующий час. Построим модель для такого предсказания.
 
 Значение метрики *RMSE* на тестовой выборке должно быть не больше 48.
+
+## Инструменты 
+
+- pandas
+- numpy
+- matplotlib.pyplot
+- sklearn.model_selection, train_test_split
+- sklearn.metrics, mean_squared_error
+- sklearn.model_selection, TimeSeriesSplit
+- sklearn.model_selection, GridSearchCV
+- sklearn.tree, DecisionTreeRegressor
+- statsmodels.tsa.seasonal, seasonal_decompose
+- statsmodels.tsa.statespace, sarimax
+- statsmodels.tsa.stattools, adfuller
+- catboost, Pool, CatBoostRegressor, cv
+- lightgbm
+
 
 ## Итоги исследования
 
